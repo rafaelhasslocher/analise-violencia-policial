@@ -49,7 +49,69 @@ Todo o processo de análise de dados e do desenvolvimento das respostas colocada
 
 ## 4 - Evidências das Tabelas Criadas
 
+#### **Tabela "bronze.fato":**
 
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/bronze.fato.png?raw=true">
+
+#### **Tabela "bronze.codigos_cidades":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/bronze.codigos_cidades.png?raw=true">
+
+#### **Tabela "bronze.dimensao_escolaridade":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/bronze.dimensao_escolaridade.png?raw=true">
+
+#### **Tabela "bronze.dimensao_linha_pobreza":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/bronze.dimensao_linha_pobreza.png?raw=true">
+
+#### **Tabela "bronze.dimensao_percentual_racas":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/bronze.dimensao_percentual_racas.png?raw=true">
+
+#### **Tabela "bronze.dimensao_populacao":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/bronze.dimensao_populacao.png?raw=true">
+
+#### **Tabela "bronze.dimensao_renda_mediana":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/bronze.dimensao_renda_mediana.png?raw=true">
+
+#### **Tabela "silver.fato":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/silver.fato.png?raw=true">
+
+#### **Tabela "silver.dimensao_escolaridade":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/silver.dimensao_escolaridade.png?raw=true">
+
+#### **Tabela "silver.dimensao_linha_pobreza":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/silver.dimensao_linha_pobreza.png?raw=true">
+
+#### **Tabela "silver.dimensao_percentual_racas":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/silver.dimensao_percentual_racas.png?raw=true">
+
+#### **Tabela "silver.dimensao_populacao":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/silver.dimensao_populacao.png?raw=true">
+
+#### **Tabela "silver.dimensao_renda_mediana":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/silver.dimensao_renda_mediana.png?raw=true">
+
+#### **Tabela "gold.fato_homicidios_cidades":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/gold.fato_homicidios_cidades.png?raw=true">
+
+#### **Tabela "gold.fato_homicidios_mil_habitantes":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/gold.fato_homicidios_mil_habitantes.png?raw=true">
+
+#### **Tabela "gold.fato_indice_obitos_raca":**
+
+<img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/gold.fato_indice_obitos_raca.png?raw=true">
 
 ## 6 - Autoavaliação
 
