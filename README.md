@@ -20,11 +20,11 @@ Embora os episódios citados acima tenham causado grande repercussão e comoçã
 
 Para o desenvolvimento desse trabalho, a temática central estará envolvida na análise dos dados referentes a homicídios pelas mãos de policiais. Nesse sentido, colocam-se as seguintes perguntas principais:
 
-1. Há suporte nos dados para evidenciar que policiais são mais propensos a cometer homicídios sobre pessoas pretas?
+1. Há suporte nos dados para evidenciar que policiais são mais propensos a cometer homicídios sobre pessoas não brancas nos Estados Unidos?
 
-2. Quais são as condições dos homicídios ocorridos? Há uma concentração específica das ocorrências?
+2. Quais são as condições dos homicídios ocorridos nos Estados Unidos? Há uma concentração específica das ocorrências?
 
-3. Há outras métricas que podem influenciar a ação dos policiais além do componente racial?
+3. Há outras métricas que podem influenciar a ação dos policiais além do componente racial nos Estados Unidos?
 
 ## 2 - Escolha dos Dados
 
@@ -46,8 +46,21 @@ Todas as tabelas foram baixadas da plataforma e unificadas neste mesmo repositó
 
 Todo o processo de análise de dados e do desenvolvimento das respostas colocadas no objetivo são discutidas no arquivo `mvp-analise-violencia-policial.ipynb`.
 
+## 4 - Autoavaliação
 
-## 4 - Evidências das Tabelas Criadas
+Ao longo do processo de desenvolvimento do MVP, minha maior dificuldade foi no gerenciamento de tempo. Por se tratar de um assunto muito debatido pela sociedade, há um grande número de dados, análises e matérias jornalísticas divulgadas, de modo que foi necessário realizar alguma triagem para o desenvolvimento do MVP. Por essa razão, uma parte considerável do tempo disponível foi utilizada para a pesquisa e o entendimento do que deveria constar no estudo apresentado no MVP.
+
+Pelo descrito acima, há alguns pontos que eu gostaria de desenvolver mas que, pelo gerenciamento do tempo, não foi possível. Como exemplo, cito:
+
+- Mergulhar de forma mais aprofundada nos dados demográficos dos Estados Unidos, especialmente após a verificação de componentes além do racial como influentes à distribuição dos óbitos;
+
+- Segregação do notebook em parcelas menores, utilizando a orientação a objetos para a definição das etapas de ETL para um projeto mais fluido e organizado;
+
+- Cruzamento com outros horizontes temporais de análise (mais amplos ou não), de modo a descartar a possibilidade de que os dados possam apresentar algum viés na comparação com outros dados.
+
+Apesar dos itens colocados acima, fiquei satisfeito com a minha entrega e com o preenchimento dos requisitos do MVP, de modo que esses pontos poderiam ser abordados em estudo futuro.
+
+## 5 - Evidências das Tabelas Criadas
 
 #### **Tabela "bronze.fato":**
 
@@ -112,10 +125,6 @@ Todo o processo de análise de dados e do desenvolvimento das respostas colocada
 #### **Tabela "gold.fato_indice_obitos_raca":**
 
 <img src="https://github.com/rafaelhasslocher/analise-violencia-policial/blob/main/imagens/gold.fato_indice_obitos_raca.png?raw=true">
-
-## 6 - Autoavaliação
-
-A autoavaliação foi realizada no arquivo "mvp-analise-violencia-policial.ipynb".
 
 
 
