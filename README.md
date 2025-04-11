@@ -4,7 +4,7 @@
 
 Este repositório contém o MVP desenvolvido para aprovação na Sprint "Engenharia de Dados" da Pós-Graduação Lato Sensu em Ciência de Dados e Analytics do CCE PUC-Rio.
 
-Para a construção desse MVP, utilizou-se a ferramenta "Databricks Community Edition" para a execução do notebook, criação de schemas de dados e armazenamento das tabelas utilizadas ao longo do projeto. Nesse sentido, cabe mencionar que o notebook deverá ser executado necessariamente na ferramenta destacada.
+Para a construção desse MVP, utilizou-se a ferramenta "Databricks Community Edition" para a execução do notebook `mvp-analise-violencia-policial.ipynb`, criação de schemas de dados e armazenamento das tabelas utilizadas ao longo do projeto. Nesse sentido, cabe mencionar que o notebook deverá ser executado necessariamente na ferramenta destacada.
 
 No notebook, utilizou-se as bibliotecas `numpy`, `pandas`, `matplotlib`, `seaborn` para o trabalho da base e visualização dos dados como um todo. A biblioteca `spark` foi utilizada para a gestão das tabelas da pipeline.
 
@@ -26,9 +26,34 @@ Para o desenvolvimento desse trabalho, a temática central estará envolvida na 
 
 3. Há outras métricas que podem influenciar a ação dos policiais além do componente racial?
 
-<b><span style="color:red;">Escrever uma conclusão</span></b>
-
 ## 2 - Escolha dos Dados
+
+Para o desenvolvimento desse trabalho, foram utilizadas mútltiplas fontes de dados.
+
+A tabela fato do modelo ("PoliceKillingsUS.csv") e as cinco primeiras tabelas dimensão ("MedianHouseholdIncome2015.csv", "PercentagePeopleBelowPovertyLevel.csv", "PercentOver25CompletedHighSchool.csv", "ShareRaceByCity.csv") foram extraídas da plataforma Kaggle e podem ser acessadas no seguinte link: https://www.kaggle.com/datasets/kwullum/fatal-police-shootings-in-the-us.
+
+A licença para a utilização dessas tabelas é definida na plataforma como "CC-NY-NC-SA 4.0". Após pesquisa sobre a definição das licenças [[7]], identificamos que ela permite o compartilhamento e adaptação dos dados desde que sejam utilizados para fins não-comerciais e com créditos adequados. Dessa forma, entendemos que as bases são adequadas para os fins deste trabalho.
+
+A sexta tabela dimensão apresentada no arquivo `mvp-analise-violencia-policial.ipynb` ("sub-est2019_all.csv") do site da agência de Censo dos Estados Unidos e pode ser encontrada no seguinte link: https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html (na seção "Datasets", acessar o link "United States").
+
+A sétima tabela dimensão ("fips_codes.csv") também foi retirada do site da agência de Censo dos Estados Unidos, conforme seguinte link: https://www.census.gov/library/reference/code-lists/ansi.html (na seção "County and County Equivalents Entities", selecionar "United States" no menu suspenso).
+
+Quanto às definições de licença das duas últimas tabelas, é possível verificar no próprio site [[8]] que os dados do Censo americano são de uso aberto, de modo que também não foi identificado impeditivo à sua utilização.
+
+Todas as tabelas foram baixadas da plataforma e unificadas neste mesmo repositório Github, de modo a facilitar a referência ao longo do código.
+
+## 3 - Análise dos Dados e Conclusões
+
+Todo o processo de análise de dados e do desenvolvimento das respostas colocadas no objetivo são discutidas no arquivo `mvp-analise-violencia-policial.ipynb`.
+
+
+## 4 - Evidências das Tabelas Criadas
+
+
+
+## 6 - Autoavaliação
+
+A autoavaliação foi realizada no arquivo "mvp-analise-violencia-policial.ipynb".
 
 
 
@@ -44,3 +69,7 @@ Para o desenvolvimento desse trabalho, a temática central estará envolvida na 
 [5]: https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/05/05/jacarezinho-1-ano-apos-28-mortes-10-de-13-investigacoes-do-mp-foram-arquivadas.ghtml
 
 [6]: https://www.cnnbrasil.com.br/nacional/sudeste/sp/mortes-por-policiais-em-servico-cresceram-84-no-ano-passado-em-sp/
+
+[7]: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+[8]: https://www.census.gov/about/policies/open-gov/open-data.html
