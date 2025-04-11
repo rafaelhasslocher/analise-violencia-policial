@@ -4,7 +4,7 @@
 
 Este repositório contém o MVP desenvolvido para aprovação na Sprint "Engenharia de Dados" da Pós-Graduação Lato Sensu em Ciência de Dados e Analytics do CCE PUC-Rio.
 
-Para a construção desse MVP, utilizou-se a ferramenta "Databricks Community Edition" para a execução do notebook `mvp-analise-violencia-policial.ipynb`, criação de schemas de dados e armazenamento das tabelas utilizadas ao longo do projeto. Nesse sentido, cabe mencionar que o notebook deverá ser executado necessariamente na ferramenta destacada.
+Para a construção desse MVP, utilizou-se a ferramenta "Databricks Community Edition" para a execução do notebook `mvp-analise-violencia-policial.ipynb`, criação de schemas de dados e armazenamento das tabelas utilizadas ao longo do projeto. Nesse sentido, cabe mencionar que, caso necessário, o notebook deverá ser executado necessariamente na ferramenta destacada.
 
 No notebook, utilizou-se as bibliotecas `numpy`, `pandas`, `matplotlib`, `seaborn` para o trabalho da base e visualização dos dados como um todo. A biblioteca `spark` foi utilizada para a gestão das tabelas da pipeline.
 
